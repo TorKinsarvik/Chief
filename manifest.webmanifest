@@ -1,0 +1,68 @@
+{
+  "id": "./",
+  "name": "CHIEF v2 – Avansert kroppsvekt",
+  "short_name": "CHIEF",
+  "description": "Hard, strukturert og offline kroppsvekttrening for erfarne utøvere.",
+  "lang": "nb-NO",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0c0f",
+  "theme_color": "#0a0c0f",
+  "categories": [
+    "fitness",
+    "health",
+    "sports"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start dagens økt",
+      "short_name": "Start økt",
+      "url": "./?action=today",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Åpne historikk",
+      "short_name": "Historikk",
+      "url": "./?view=history",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
